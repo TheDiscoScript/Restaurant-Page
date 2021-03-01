@@ -1,0 +1,23 @@
+{
+  "name": "odinproject_restaurantpage",
+  "version": "1.0.0",
+  "description": "My second project after the break",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willdooo/odinProject_RestaurantPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willdooo/odinProject_RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/Willdooo/odinProject_RestaurantPage#readme",
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

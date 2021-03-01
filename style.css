@@ -1,0 +1,142 @@
+html {
+  font-size: 62, 5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  background-image: url(./images/skogBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+  display: grid;
+  grid-template-rows: 1.8fr 7fr 0.5fr;
+  grid-template-columns: 2fr 6fr 2fr;
+  grid-template-areas:
+    "upper upper upper"
+    ". mid ."
+    "under under under";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#upper {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  grid-area: upper;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(red, 0.5);
+}
+#upper > h1 {
+  font-size: 3rem;
+}
+button {
+  margin: 15px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  font-size: 2.2rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.hvr-bob.active {
+  color: yellow;
+}
+#mid {
+  grid-area: mid;
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-areas:
+    ". . ."
+    ". midContent ."
+    ". . .";
+}
+#midContent {
+  grid-area: midContent;
+}
+#midContentHome {
+}
+#midContentMenu {
+}
+#midContentContact {
+}
+#under {
+  background: rgba(134, 92, 92, 0.4);
+  grid-area: under;
+  display: flex;
+  justify-content: center;
+}
+
+/*https://github.com/IanLunn/Hover*/
+
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}

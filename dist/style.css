@@ -9,7 +9,6 @@ body {
   background-image: url(./images/skogBackground.jpg);
   background-size: cover;
   background-position: center;
-  background-color: red;
   display: grid;
   grid-template-rows: 1.8fr 7fr 0.5fr;
   grid-template-columns: 2fr 6fr 2fr;
@@ -67,10 +66,11 @@ button {
 #midContentContact {
 }
 #under {
-  background: rgba(134, 92, 92, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   grid-area: under;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 /*https://github.com/IanLunn/Hover*/

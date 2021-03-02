@@ -17,7 +17,7 @@ function createUpper() {
 
     const homeButton = document.createElement("button");
     homeButton.id = "homeButton";
-    homeButton.className = "hvr-bob homeButton"; //possibly add class "active"??
+    homeButton.className = "hvr-bob homeButton active"; //possibly add class "active"??
     homeButton.textContent = "Home";
     nav.appendChild(homeButton);
     addListenersToButtons(homeButton);
@@ -96,6 +96,7 @@ function renderContent() {
   content.appendChild(createUpper());
   content.appendChild(createMid());
   content.appendChild(createUnder());
+  renderHome();
 }
 
 export default renderContent;

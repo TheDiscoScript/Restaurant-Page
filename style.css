@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-rows: 1.8fr 7fr 0.5fr;
+  grid-template-rows: 1.2fr 7fr 0.5fr;
   grid-template-columns: 2fr 6fr 2fr;
   grid-template-areas:
     "upper upper upper"
@@ -21,6 +21,7 @@ body {
   position: absolute;
 }
 #upper {
+  margin-top: -10px;
   background: rgba(0, 0, 0, 0.4);
   color: white;
   grid-area: upper;
@@ -49,7 +50,7 @@ button {
 #mid {
   grid-area: mid;
   display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr 0.5fr;
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
     ". . ."
@@ -58,13 +59,55 @@ button {
 }
 #midContent {
   grid-area: midContent;
+  margin-top: -20px;
+  background: rgba(0, 0, 0, 0.25);
+  border: rgba(0, 0, 0, 0.445) groove 3px;
+  width: 100%;
+  height: 100%;
 }
 #midContentHome {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.2)
+  );
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
 }
 #midContentMenu {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+  align-items: center;
+  justify-items: center;
 }
 #midContentContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+  color: white;
+  font: bold;
+  font-size: 1.6rem;
 }
+#midContentContact > p {
+  margin: 20px;
+  background-color: rgba(216, 127, 201, 0.075);
+}
+
 #under {
   background: rgba(0, 0, 0, 0.4);
   grid-area: under;

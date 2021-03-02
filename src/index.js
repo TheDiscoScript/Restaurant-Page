@@ -1,1 +1,2 @@
-alert("LET'S GOOOO");
+import renderContent from "./webRender";
+renderContent();

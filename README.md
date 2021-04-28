@@ -14,6 +14,7 @@
 
 ### 🏠 [Homepage](https://willdooo.github.io/Restaurant-Page/)
 
+https://willdooo.github.io/Restaurant-Page/
 ## Run tests
 
 ```sh

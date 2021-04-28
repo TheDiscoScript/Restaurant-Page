@@ -12,7 +12,7 @@
 > - ES6 modules
 > - git re-learning
 
-### 🏠 [Homepage](https://github.com/Willdooo/odinProject_RestaurantPage#readme)
+### 🏠 [Homepage](https://willdooo.github.io/Restaurant-Page/)
 
 ## Run tests
 

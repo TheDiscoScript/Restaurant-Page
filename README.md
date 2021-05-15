@@ -1,37 +1,18 @@
 # Welcome to Odin Project - Restaurant page 👋
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/Willdooo/odinProject_RestaurantPage#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Willdooo/odinProject_RestaurantPage/graphs/commit-activity)
-[![License: ISC](https://img.shields.io/github/license/Willdooo/ Odin Project - Restaurant page)](https://github.com/Willdooo/odinProject_RestaurantPage/blob/master/LICENSE)
+<p></p>
 
-> My second project after the break
+## Description
 
-> - DOM manipulation
-> - Export / import
-> - ES6 modules
-> - git re-learning
+Restaurant website with three clickable buttons, that will render out their content. In this project I futher developed my DOM manipulation skills and exporting/importing in JavaScript. I also used ES6 modules syntax and started using git!! Project made as part of [The Odin Project's curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page).
 
-### 🏠 [Homepage](https://willdooo.github.io/Restaurant-Page/)
+## Development
 
-https://willdooo.github.io/Restaurant-Page/
-## Run tests
-
-```sh
-npm run test
-```
-
-## Author
-
-- Github: [@Willdooo](https://github.com/Willdooo)
+- JS, HTML, CSS
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-This project is [ISC](https://github.com/Willdooo/odinProject_RestaurantPage/blob/master/LICENSE) licensed.
 
 ---
 
